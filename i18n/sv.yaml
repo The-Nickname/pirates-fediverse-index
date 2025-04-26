@@ -3,6 +3,7 @@ sv:
     freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati-kvinnor i kartläggning
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Kartlägg Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -202,14 +203,22 @@ sv:
     openstreetmapwesternsahara: OpenStreetMap Västsahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Colombia
     osmmainz: OSM Mainz
+    osmnelson: OSM Nelson
+    swissopenstreetmap: Swiss OpenStreetMap
     tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} på Aparat'
       description: Prenumerera på vår Aparat-kanal
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} på Bluesky'
+      description: Följ oss på Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord för {community}'
       description: Kom i kontakt med andra kartläggare på Discord
@@ -288,8 +297,6 @@ sv:
       description: Följ oss på TikTok
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} på 𝕏'
-      description: Följ oss på 𝕏
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -297,8 +304,6 @@ sv:
       name: 'WikiProject för {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} på 𝕏'
-      description: Följ oss på 𝕏
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP för {community'
@@ -315,6 +320,7 @@ sv:
   af-matrix:
     description: Matrisgrupp för gemenskapen i Afghanistan.
   al-maptime-tirana:
+    name: Maptime Tirana
     description: Sociala evenemang organiserade runt kartläggning – nybörjare är varmt välkomna!
     extendedDescription: Maptime är en öppen inlärningsmiljö för alla kunskapsnivåer, och erbjuder riktat pedagogiskt stöd till nybörjaren. Maptime är både flexibel och strukturerad, vilket skapar möjlighet för kartläggningsguider, workshops, pågående projekt med gemensamt mål samt arbetstid för oberoende projekt eller samarbetande.
   am-wiki:
@@ -326,6 +332,7 @@ sv:
   Bahia-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   Bay-Area-OpenStreetMappers:
+    name: Bay Area OpenStreetMappers
     description: Förbättra OpenStreetMap i San Francisco Bay Area
     extendedDescription: Den här gruppen handlar om att odla OpenStreetMap-gemenskapen här i San Francisco Bay Area. Våra evenemang är öppna för alla, från open source-entusiaster, cyklister, GIS-proffs, geocachare m.m. Precis alla som är intresserade av kartor, kartläggning och gratis kartdata är välkomna att delta i vår grupp samt delta i våra evenemang.
   bd-facebook:
@@ -356,7 +363,10 @@ sv:
     description: Alla kartläggare är välkomna!
   br-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
+  br-wiki:
+    description: WikiProjekt med information och riktlinjer för samordning av kartläggning i Brasilien.
   cape-coast-youthmappers:
+    name: University of Cape Coast YouthMappers
     description: 'Följ oss på Twitter: {url}'
     extendedDescription: Detta är den officiella hållpunkten för Youth Mappers chapter på University of Cape Coast, Ghana. Vi älskar kartor, öppen data och att hjälpa de fattiga.
   castilla-y-leon-wiki:
@@ -375,6 +385,7 @@ sv:
     description: Från en väg till en annan, låt oss kartlägga vårt land...
     extendedDescription: Vi brinner för OSM-projektet och delar med oss av vår tid för att göra projektet känt för andra. Vi är fortfarande för få, gå med oss!
   Central-Pennsylvania-OSM:
+    name: Centrala Pennsylvania OSM
     description: Online-kartläggningsgemenskap baserat på State College, PA
   ch-mailinglist:
     name: E-postlista för OpenStreetMap i Schweiz/Suisse/Svizzera/Svizra
@@ -383,6 +394,48 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   cl-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
+  co-discourse:
+    name: Diskussionsämnen om Colombia för OSM-gemenskaper
+    description: Dessa är ämnen relaterade till kartändringar i Colombia
+  co-facebook:
+    name: Grupp för {community} på Facebook
+    description: Diskussionsgrupp om OSM-frågor i Colombia
+  co-github:
+    name: 'Projekt på GitHub av {community}'
+    description: Kodprojekt utvecklade av gemenskapen
+  co-instagram:
+    name: Inlägg av {community} på Instagram
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-linkedin:
+    name: Inlägg av {community} på LinkedIn
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-mastodon:
+    name: Inlägg av {community} på Mastodon
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-talk:
+    name: 'E-postlista för {community}'
+    description: E-postmeddelanden som kräver kommunikation av information till gemenskapen
+  co-telegram:
+    name: Diskussionsgrupp om {community} på Telegram
+    description: Öppna diskussioner om ämnen av intresse för hela gemenskapen. Det är den mest aktiva kanalen.
+  co-thread:
+    name: Inlägg av {community} på Threads
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-tiktok:
+    name: Korta videor av {community} på Tiktok
+    description: Publikationer om gemenskapsaktiviteter
+  co-twitter:
+    name: Gemenskap {community} på x-Twitter
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-whatsapp:
+    name: Nyheter från gemenskapen {community} på WhatsApp
+    description: Publikationer om gemenskapsaktiviteter eller information
+  co-wiki:
+    name: Wikisida med dokumentation om kartläggningsprojektet i Colombia.
+    description: Dokumentation om allt relaterat till OpenStreetMap i Colombia
+  co-youtube:
+    name: Videos av {community} på YouTube
+    description: Videor om gemenskapsaktiviteter eller förklaringar av OSM-aktiviteter
   comunitat-valenciana-wiki:
     description: 'Gemenskap för allt du behöver veta om kartläggning i Valencia: {url}'
   czech-community:
@@ -403,6 +456,8 @@ sv:
     name: E-postlista för Berlin
   de-berlin-wiki:
     description: 'Wiki-sida för {community}'
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlin-Brandenburg XMPP
   de-bochum-wiki:
     description: 'Wiki-sida för {community}'
   de-bonn-wiki:
@@ -427,8 +482,8 @@ sv:
     description: 'Wiki-sida för {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap i Mainz med omgivning
-  de-mainz-telegram:
-    description: OpenStreetMap i Mainz med omgivning
+  de-mainz-signal:
+    description: OpenStreetMap i Mainz, Wiesbaden och omgivning
   de-mainz-wiki:
     description: OpenStreetMap i Mainz med omgivning
   de-munchen-wiki:
@@ -493,29 +548,32 @@ sv:
     extendedDescription: 'Anslut #{account} på irc.oftc.net (port 6667). Ha tålamod och vänta några minuter om du ställer en fråga'
   gb-mailinglist:
     description: Talk-gb är den officiella kommunikationslistan för storbritanniska (inklusive nordirländska) OSM-gemenskapen
+  ge-matrix:
+    description: Allmän chatt om OpenStreetMap i Georgien, kopplad via en brygga till Telegram-chatten
   geogeeks_perth_meetup:
     name: GeoGeeks Perth
     description: Perth-baserad mötesgrupp för personer som är intresserade av kartläggning, geospatial data och öppen källkod. Vi kör regelbundna OSM-kartläggningsfester, samtal och sociala sammankomster. Nybörjare är varmt välkomna!
   GeoPhilly:
+    name: GeoPhilly
     description: Träffar för kart-entusiaster kring Philadelphia
     extendedDescription: GeoPhilly förenar utvecklare, geografer, data-nördar, open source-entusiaster, civila hackare och kartmissbrukare i vår gemensamma kärlek för kartor och vad de berättar för oss. Om du använder kartor som en del av ditt arbete eller bara vill lära dig mer, är det här samlingspunkten för dig! Våra aktiviteter syftar till att vara öppna, vänliga, pedagogiska och sociala och spänna allt från roliga stunder till korta föreläsningar eller till och med workshops. Kom och skapa en varierad, inspirerande geo-gemenskap i Philadelphia med oss!
   hr-github:
     description: 'GitHub för {community}'
+  hr-tm:
+    name: 'Tasking Manager för {community} '
+    description: Utforska aktiva kartläggningsuppgifter i Kroatien
   hr-wiki:
     description: Wikiproject-sida för Kroatien
   hu-facebook-group:
     name: 'Facebook-grupp för {community}'
   hu-matrix:
     extendedDescription: OpenStreetMap-chat om kartor. En av OSM-gemenskapens support-forum.
-  hu-meetup:
-    description: Plattformen för att organisera träffar i Ungen
   hu-mobilizon:
     name: '{community} på Mobilizon'
     description: Kommande evenemang för OpenStreetMap Ungern-gemenskapen
   hu-tm:
+    name: 'Tasking Manager för {community} '
     description: Utforska aktiva karteringsuppgifter i Ungern
-  hu-website:
-    description: Vi hjälper till att utöka och förbättra OpenStreetMap i Ungern.
   hu-wiki:
     description: 'Wiki-sida för {community}'
   humanitarian-osm-tr-slack:
@@ -539,6 +597,8 @@ sv:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap i Italien.
   it-discourse:
     description: Forumet där du kan diskutera OpenStreetMap
+  ivides_website:
+    description: Vi fokuserar på hållbar utveckling, kartläggning och stöd för OpenStreetMap-gemenskapen.
   ko-facebook:
     description: Kartläggare och OpenStreetMap-användare i Korea
   ko-github:
@@ -587,16 +647,24 @@ sv:
     name: Slovakisk e-postlista på Google Groups
     description: Officiell e-postlista för Slovakians gemenskap
   map-kibera:
+    name: Map Kibera Trust
     description: Map Kibera är en registrerad organisation som verkar i Kenya
     extendedDescription: Map Kibera Trusts uppdrag är att öka inflytande och representation av marginaliserade samhällen genom kreativ användning av digitala verktyg för handling.
   MapColabora-twitter:
+    name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Twitter-konto för Mapeado Colaborativo / Geoinquietos Zaragoza
+  MapLYH:
+    name: MapLYH
+    description: MapLYH-grupp
   mappa-mercia-group:
     name: Lokalgrupp Mappa Mercia
     description: Ett hem för OpenStreetMap-entusiaster i Midlands
     extendedDescription: Mappa Mercia är ett projekt att förbättra OpenStreetMap i West Midlands, Storbritannien. Vi har gemenskapsevenemang, tillhandahåller upplärning och ger support till lokala organisationer som vill öppna upp sin data.
   MappingWR:
+    name: MappingWR
     description: Det är lätt att hitta vägar med låg koldioxidutsläpp runt Waterloo-regionen.
+  MapRVA:
+    name: MapRVA
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
@@ -657,6 +725,8 @@ sv:
     description: Alla kartläggare är välkomna!
   no-irc:
     description: Chattrum för kartläggare och OpenStreetMap-användare, utvecklare och entusiaster i Norge
+  no-matrix:
+    description: Brygga av IRC-chattrum
   Nottingham-OSM-pub-meetup:
     name: Pub-möte en gång i månaden i East Midlands (Nottingham)
     description: Social sammankomst för kartläggare och användare i East Midlands
@@ -664,13 +734,20 @@ sv:
   np-facebook:
     extendedDescription: Kartlägger i Nepal? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!
   Open-Source-San-Jose-Discord:
+    name: Open Source San José Discord
     description: 'Kom i kontakt med andra kartläggare på Discord! Efter du registrerat dig, anslut till kanalen #🗺openstreetmap.'
+  Open-Source-San-Jose-Mastodon:
+    description: Följ Open Source San José på Mastodon.
+    extendedDescription: Open Source San José är en lokal ideell organisation som kopplar samman volontära kodare och designers med samhällens behov genom civikteknologi. OSSJ sponsrar den lokala volontärkartläggargemenskapens varannan veckas South Bay Map Nights.
   Open-Source-San-Jose-Slack:
+    name: Open Source San José Slack
     description: 'Alla är välkomna! Registrera dig på {signupUrl} och anslut sedan till kanalen #proj-osm'
   OpenCleveland-meetup:
+    name: Open Cleveland
     description: Förbättra OpenStreetMap kring Cleveland
     extendedDescription: Open Geo Cleveland syftar till att vara en resurs för människor att diskutera och dela kunskaper om hur man använder fri geografiska datasamlingar, speciellt OpenStreetMap, och öppen geo-mjukvara som hanterar, redigerar och visar geografiska data och förespråkar för dess användning i nordöstra Ohio. Vi är också en maptime-filial =)
   osgeo-oceania:
+    name: OSGeo Oceania
     description: Vi stöder utvecklingen av OpenStreetMap-gemenskap i Oceanien.
     extendedDescription: OSGeo Oceanias syfte är att stödja och utveckla den öppna geospatiala gemenskap i Oceanien, inklusive övervakning och förvaltning av konferensserien FOSS4G SotM Oceania.
   osm-africa-eventbrite:
@@ -692,21 +769,31 @@ sv:
     extendedDescription: Nyheter från den lokala gemenskapen och OpenStreetMap i allmänhet.
   OSM-AR-wiki:
     description: Allt du behöver veta om kartläggning i Argentina.
+  osm-asia-facebook:
+    description: OpenStreetMap Asiens Facebook-grupp
+    extendedDescription: En grupp för integrerat kartläggningsstöd för Asien. Vi vill särskilt vara en plats för kartläggare utan en lokal gemenskap att dela information och samarbeta för att lösa problem i sina områden som de annars inte skulle kunna hantera på grund av bristen på en lokal gemenskap.
   osm-at:
     description: Plattformen för information om OpenStreetMap i Österrike
+  osm-bengaluru-matrix:
+    extendedDescription: Grupp för OpenStreetMap-bidragare, användare och nybörjare i Bengaluru. Länkad till Telegram.
+  osm-bengaluru-telegram:
+    extendedDescription: Grupp för OpenStreetMap-bidragare, användare och nybörjare i Bengaluru. Länkad till Matrix.
   osm-bengaluru-wiki:
     description: OpenStreetMap i Bengaluru
   osm-benin-facebook:
     description: Förbättra OpenStreetMap i Benin
   OSM-Central-Salish-Sea:
+    name: OpenStreetMap Centrala Salishhavet
     description: Kartläggare och OpenStreetMap-användare runt Mount Vernon, Washington
     extendedDescription: OpenStreetMap är en världskarta skapad av människor precis som du. Det är en karta du bygger och ger bort gratis, precis som Wikipedia. Ta en titt på osm.org för mer information. Vi träffas hela tiden för att prata om kartor, skapar kartor och har kul!
   osm-ch:
     name: '{community}'
     description: Plattformen för information om OpenStreetMap i Schweiz
   OSM-Chattanooga:
+    name: OSM Chattanooga
     description: OpenStreetMap-användargruppen för Chattanooga, Tennessee
   OSM-Colorado:
+    name: OpenStreetMap Colorado
     description: Kartläggare och OpenStreetMap-användare i staten Colorado, USA
     extendedDescription: OpenStreetMap (OSM) Colorado är en lokal gemenskap med personer som är intresserade av att bidra till att skapa gratiskartor. Vi uppmuntrar alla våra kartläggare att organisera eller föreslå kartläggningsevenemang i hela staten. Meetup-aktiviteter kan vara enkla sociala träffar, enkla eller avancerade utbildningar kring OSM eller gemensamma kartläggningsatsningar.
   osm-de:
@@ -714,6 +801,12 @@ sv:
   osm-deep-south-wiki:
     description: 'Wiki-sida för {community}'
     extendedDescription: OpenStreetMap Deep South är en lokal kartgemenskap i sydöstra USA.
+  osm-delhi-xmpp:
+    name: OpenStreetMap Delhi XMPP
+    extendedDescription: XMPP-rum för OSM Delhi; inte kopplat till några proprietära nätverk.
+  OSM-Discord:
+    name: OpenStreetMap World Discord
+    description: Icke-officiell, gemenskapsdriven Discord-server för den globala OpenStreetMap-gemenskapen. Regionala kanaler finns tillgängliga.
   OSM-Discourse:
     name: Gemenskapsforum för OpenStreetMap
     description: En delad plats för samtal om OpenStreetMap
@@ -732,6 +825,8 @@ sv:
     extendedDescription: Kartlägger i Indien? Har du frågor, vill komma i kontakt med gemenskapen här? Gå med på {url}. Alla är välkomna!
   osm-india-github:
     description: 'Koda med oss: {url}'
+  osm-india-mastodon:
+    description: Hem för OpenStreetMap Indien-gemenskapen på Fediverse.
   osm-india-matrix:
     extendedDescription: Inofficiellt chattrum för OSM Indien, också överbryggat till telegramgruppen osmindia
   OSM-India-Puducherry-Facebook:
@@ -748,12 +843,17 @@ sv:
     description: Kartläggare och OpenStreetMap-användare i Indien
   osm-india-wiki:
     description: 'Allt du behöver veta om kartläggning i Indien: {url}'
+  osm-india-xmpp:
+    name: OpenStreetMap Indien XMPP
+    extendedDescription: 'XMPP-rum för OpenStreetMap Indien-gemenskapen; inte kopplat till några proprietära nätverk. Finns även tillgängligt från Matrix via #osm-in:poddery.com.'
   osm-iran-aparat:
     extendedDescription: En god resurs med videos om allt rörande OpenStreetMap. Mestadels i Persiska.
   osm-iran-discord:
     extendedDescription: En Discord-server för OpenStreetMap Iran. Känn dig fri att gå med!
   osm-iran-telegram:
     extendedDescription: Du är välkommen att gå med i vår Telegram-kanal på {url}. Vi har också en supergrupp med många OSM:are intresserade av Iran. Hitta dess länk i beskrivningen av kanalen.
+  OSM-japan-discord:
+    description: 'En Discord-arbetsyta för OpenStreetMap Japan-gemenskapen: {url}'
   OSM-japan-facebook:
     description: Kartläggare och OpenStreetMap-användare i Japan
   OSM-japan-website:
@@ -782,7 +882,10 @@ sv:
     description: Malagasy Facebook-grupp för personer intresserade av OpenStreetMap.
   osm-michigan-wiki:
     description: 'Wiki-sida för {community}'
+  osm-nelson:
+    description: En OpenStreetMap-grupp i Nelson, Nya Zeeland.
   osm-ni:
+    name: MapaNica.net
     description: Tillhandahåller OSM-tjänster och information för den gemenskapen i Nicaragua
   osm-ohio-wiki:
     description: 'Wiki-sida för {community}'
@@ -803,15 +906,18 @@ sv:
     description: E-postlistan FSHM Puducherry för att diskutera kartläggning i Puducherry  och andra saker.
     extendedDescription: FSHM organiserar evenemang relaterade till fri mjukvara/hårdvara, teknologi, aktivism och OpenStreetMap.
   OSM-Rome-meetup:
+    name: Möte för romerska kartläggare
     description: Förbättra OpenStreetMap kring Rom
     extendedDescription: Vi siktar på att vara en resurs för människor att diskutera och dela kunskaper om hur man använder fri geografiska datasamlingar, speciellt OpenStreetMap, och öppen geo-mjukvara som hanterar, redigerar och visar geografiska data och förespråkar för dess användning i Lazio.
   OSM-Seattle:
+    name: OpenStreetMap Seattle
     description: Kartläggare och OpenStreetMap-användare runt Seattle
   OSM-SoCal:
     name: OpenStreetMap södra Kalifornien
     description: Låt oss ha lite kul, bidra med något till Los Angeles och lär dig om kartläggning!
     extendedDescription: OpenStreetMap (SOM) Södra Kalifornien är för alla intresserade av kartläggning för att komma tillsammans för att arbeta med OpenStreetMap. OpenStreetMap, Wikipedia för kartor, är en gratis open source-karta över hela världen som skapats av mer än 1 000 000 volontärer runt hela världen. Alla är välkomna. Om du inte känner till OpenStreetMap lär vi dig. Om du har en idé kring ett kartläggningsprojekt, eller en t.o.m. en studieresa som en grupp människor kan göra, har du fullt stöd från oss!
   OSM-Tampa-Bay:
+    name: OpenStreetMap Tampa Bay
     description: Kartläggare och OpenStreetMap-användare runt Tampa Bay
     extendedDescription: 'Gruppen OSM Tampa Bay är till för att lokalinvånare ska förenas och bygga upp den optimala kartan över Tampa Bay med OpenStreetMap, den fria och redigerbara kartan över världen. Om du gillar kartor, data, open source, GPS, vandring, cykling, etc., kommer du att älska att arbeta med OpenStreetMap
 
@@ -821,6 +927,7 @@ sv:
   OSM-Telegram:
     description: Anslut till den världsomspännande gemenskapen i OpenStreetMap via Telegram på {url}
   OSM-TH-CNX-meetup:
+    name: OSM Meetup Chiang Mai
     description: Oregelbundna träffar för OpenStreetMap-gemenskapen i Chiang Mai
     extendedDescription: Medlemmar av OpenStreetMap-gemenskapen träffas då och då i Chiang Mai. Kom i kontakt och kolla in {url} för att se när nästa träff är planerad
   osm-toronto-meetup:
@@ -832,16 +939,23 @@ sv:
     extendedDescription: 'Vi stöder OpenStreetMap genom att ha årliga konferencier, tillhandahåller resurser för gemenskapen, bygger nätverk och genom att sprida ordet. Gå med i OpenStreetMap USA här: {signupUrl}'
     events:
       mappingusa2022:
+        name: Mapping USA 2022
         description: Följ med oss på en gratis virtuell konferens för att fira Wiki- och OpenStreetMap-gemenskaperna över hela Nordamerika!
         where: virtuell
   OSM-US-Slack:
     description: Alla är välkomna! Registrera dig på {signupUrl}
+  OSM-Utah:
+    name: OpenStreetMap Utah
+    description: Din OpenStreetMap-kartläggargemenskap för Salt Lake City-området
+    extendedDescription: Vi träffas månadsvis i Salt Lake City, vanligtvis den andra onsdagen varje månad. Alla är välkomna!
   OSM-Wyoming:
+    name: OpenStreetMap Wyoming
     description: Kartläggare och OpenStreetMap-användare i staten Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming är en lokal gemenskap med personer som är intresserade av att bidra till att skapa gratiskartor. Vi uppmuntrar alla våra kartläggare att organisera eller föreslå kartläggningsevenemang i hela staten. Meetup-aktiviteter kan vara enkla sociala träffar, enkla eller avancerade utbildningar kring OSM eller gemensamma kartläggningsatsningar.
   osmcz-twitter:
     description: Följ tjeckiska gemenskapen på Twitter – inklusive översatt WeeklyOSM!
   OSMF:
+    name: OpenStreetMap Foundation
     description: OSMF är en ideell organisation baserat i Storbritannien som stöttar OpenStreetMap-projekt.
     extendedDescription: 'OSMF stöder OpenStreetMap-projektet genom insamling, underhåll av servrarna som driver OSM, organiserar den årliga State of the Map-konferensen och samordnar de volontärer som håller OSM igång. Du kan visa ditt stöd och göra din röst hörd för OpenStreetMap genom att bli medlem i OSMF här: {signupUrl}'
   ph-facebook-group:
@@ -865,6 +979,8 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   rs-wiki:
     description: Wikiproject-sida för Serbien
+  scandinavia-discord:
+    name: Skandinavisk kanal på OpenStreetMap World Discord
   sg-wiki:
     description: 'Wiki-sida för {community}'
   si-github:
@@ -875,6 +991,9 @@ sv:
     description: 'Wiki-sida för {community}'
   sk-freemap:
     description: OpenStreetMaps kartwebbplats med verktyg i Slovakien och omgivande regioner
+  sosm:
+    name: Schweiziska OpenStreetMap-föreningen
+    description: SOSM skapades för att främja målen för OpenStreetMap-rörelsen, stärka kontakterna med myndigheter och industrin, underlätta aktiviteter för OSM-gemenskapens medlemmar i Schweiz och representera den schweiziska OSM-gemenskapen i andra organisationer.
   talk-au:
     description: Plats där australienska användare kan chatta
   talk-bo:
@@ -903,13 +1022,14 @@ sv:
   uk-localchapter:
     description: Den officiella lokala filialen för Storbritannien (inklusive Nordirland).
     extendedDescription: 'Vi stöder OpenStreetMap genom att hålla evenemang, tillhandahålla gemenskapsresurser, bygga partnerskap och genom att sprida ordet. Gå med i OpenStreetMap UK här: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap London på Mastodon
+    description: 'OpenStreetMap London på Mastodon: {url}'
   uk-london-twitter:
     name: OpenStreetMap London på Twitter
     description: 'OpenStreetMap London på Twitter: {url}'
   uk-london-wiki:
     description: 'Wiki-sida för {community}'
-  uk-loomio:
-    name: OpenStreetMap UK på Loomio
   us-discourse:
     description: Ett diskussionsforum om OpenStreetMap i USA
   us-massachusetts-mailinglist:
@@ -926,20 +1046,26 @@ sv:
   vn-wiki:
     description: 'Wiki-sida för {community}'
   YerCizenler-TR:
+    name: Yer Çizenler
     description: Yer Çizenler-kartläggning för alla  sammanslutningar
     extendedDescription: Yer Çizenler är en lokal icke-statlig organisation, en del av det turkiska OSM-gemenskapen, som syftar till att främja användningen av öppna geospatiala data och verktyg inom det nationella kartläggningsgemenskapen.
   ym-AASTU:
+    name: AASTU Youth Mappers
     description: YouthMappers-filial vid Addis Ababa Science and Technology University
     extendedDescription: The Association of Geomatics Engineering Students (AGES) syftar till att marknadsföra GIS-produkter och -tjänster samt utbilda studenter om användning av det samma. Det främjar inte bara socialisering mellan studenterna och yrkesutövare, utan ger också en plattform för att utbyta nya idéer för att hålla nya GIS- och kartläggningsevenemang och utbildning vid universitetet.
   ym-Abia-State-University:
+    name: AbsuMappersTeam
     description: YouthMappers-filial vid Abia State University
     extendedDescription: AbsuMappersTeam är ett frivilligt team av kartentusiaster som använder openstreetmap, GIS och annan open source geospatial teknik; ogy för att lösa problem. Det är en dedikerad katastrofrespons med OpenStreetMap. Det är en professionell plattform för mentorskap och empowerment för dem med passion för GIS och kartläggning. Det är ett samarbete med frivilliga för skapande av geospatial data, insamling och kartläggning av fältdata. Teamet grundades av Victor N.Sunday (Team mentor) och professor J.U.Ogbonna, teamkoordinator och fakultetsrådgivare. AbsuMapperTeam är ett dotterbolag till UniiqueMappersTeam-Port Harcourt. Teamet står för att stödja hållbar utveckling med geospatial teknologi
   ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
     description: YouthMappers-filial vid African Methodist Episcopal University
   ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
     description: YouthMappers-filial vid Ahmadu Bello University
     extendedDescription: 'Vi är en grupp datadrivna humanitära kartläggare, som ägnar sig åt att tillhandahålla humanitär service som svar på katastrof och åtgärder vid dessa. Vi är glada att bidra med vår expertis och kunskap genom kartläggning och hjälpa till att sprida #OpenEvangelism genom utbildning och samarbete.'
   ym-Ardhi-University:
+    name: ARU Mapper
     description: YouthMappers-filial vid Ardhi University
     extendedDescription: Som kommande geospatiala datakonsulter försöker vi utbilda och ge råd till samhället om hur de kan använda rumsliga data inte bara som en form av plats utan också som ett verktyg för beslutsfattande och förutsäger olika faror och klimatförändringar som kan skada dem eller framtida generationer.
   ym-Arizona-State-University-facebook:
@@ -955,9 +1081,11 @@ sv:
     description: YouthMappers-filial vid Ball State University
     extendedDescription: Vår filial är mycket aktivt. Vi fokuserar främst på samhällsevenemang, insamlingar och utflykter. Vi vill för närvarande utveckla fler kartrelaterade aktiviteter för att dra in andra studenter från campus som kan vara intresserade av att bidra.
   ym-Busitema-University:
+    name: Good Mappers
     description: YouthMappers-filial vid Busitema University
     extendedDescription: Good mappers är ett team av studenter vid Busitema University. Dess huvudsyfte är att skapa en gemenskap av erfarna kartläggare som kan bidra till världskartan.
   ym-California-University-of-Pennsylvania:
+    name: CalU PA GIS Club
     description: YouthMappers-filial vid California University of Pennsylvania
     extendedDescription: GIS Students vid Cal U lär sig att tillämpa rumslig teori på den verkliga världen. Universitetsutbildningen fokuserar på geografi och använder GIS i nödhantering.
   ym-Central-Washington-University:
@@ -965,27 +1093,35 @@ sv:
     description: YouthMappers-filial vid Central Washington University
     extendedDescription: Vårt mål med att samarbeta med Youthmappers är att ge lättnad till områden som behöver humanitär kartläggning. Genom att göra det tjänar vi våra bröder och systrar runt om i världen och främjar våra egna kartografiska färdigheter.
   ym-Clemson-University:
+    name: Clemson Mappers
     description: YouthMappers-filial vid Clemson University
     extendedDescription: Studenter i Clemson stöds av Center for Geospatial Technologies, en gemenskap av tvärvetenskapliga geospatiala vetenskapliga utövare som stöder forsknings-, undervisnings- och uppsökande aktiviteter med hjälp av teknik som möjliggör insamling, analys och tillämpning av geospatial data. Studenter integrerar geospatial teknik inom sina vetenskapliga aktiviteter i alla discipliner och bygger upp förbindelser över hela världen.
   ym-College-of-William-and-Mary:
+    name: All over the map!
     description: YouthMappers-filial vid College of William and Mary
     extendedDescription: De studenter som finns över hela kartan stöds av Center for Geospatial Analysis, en grupp som integrerar GIS i läroplanen och ger studenter och lärare hårdvara, programvara och expertis. Studenter från alla bakgrunder använder GIS över hela campus, inklusive miljövetenskap och politik, geologi, historia, företag, sociologi, biologi, antropologi, allmän politik och marinvetenskap.
   ym-Cornell-University:
+    name: Mapping Society
     description: YouthMappers-filial vid Cornell University
     extendedDescription: Cornells studenter och lärare använder programvara med öppen data och öppen källkod för att hantera utmaningar på lokal, nationell och global skala. På så sätt främjar vi våra akademiska och personliga mål att utveckla våra egna färdigheter kring GIS och rumslig kompetens.
   ym-CURAT:
+    name: YouthMappers CURAT
     description: YouthMappers-filial på Centre Universitaire de Recherche et d'Application en Télédétection (CURAT) de l'Université Felix Houphouet Boigny
     extendedDescription: Vår filial syftar till att främja användningen av gemenskapsdriven fri kartläggning och användning av openstreetmap-data inom forskningsområdet och dess tillämpning vid implementering av verktyg för beslutsfattande. Hjälp eleverna att producera sin egen data för sin forskning.
   ym-Cuttington-University:
+    name: Cuttington University YouthMappers
     description: YouthMappers-filial vid Cuttington University
     extendedDescription: YouthMappers vid Cuttington University, Suakoko och Bong County består av studenter från tre olika avdelningar; nämligen avdelningen för naturresurshantering "DONRM", Institutionen för miljövetenskaper och avdelningen för naturvetenskap. Sedan filialen inrättades februari 2017 är det totala medlemskapet 20 studenter, där varje avdelning innehåller 5 studenter.
   ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV
     description: YouthMappers-filial vid Dedan Kimathi University of Technology
     extendedDescription: GDEV är en grupp entusiastisk GIS-grupp på DeKUT som syftar till att hjälpa studenter att dela, engagera och lära av varandra i geospatiala frågor
   ym-Dhaka-College:
+    name: YouthMappers Daka College
     description: YouthMappers-filial vid Dhaka College
     extendedDescription: YouthMappers DhakaCollege är ett tillvägagångssätt från studenter för att hjälpa till att kartlägga utsatta områden i världen som en del av humanitär verksamhet. YouthMappers ger studenterna möjlighet att hjälpa människor och använda kartläggning för humanitära ändamål. Denna öppna geografiska data kan användas för utbildning, navigering och andra humanitära ändamål.
   ym-Dhaka-University:
+    name: Openstreetmap YouthMappers
     description: YouthMappers-filial vid Dhaka University
     extendedDescription: Det är ett stort privilegium för studenterna vid University of Dhaka att kartlägga för humanitära ändamål. Vår filial ger studenterna möjlighet att hjälpa människor och använda kartläggning för humanitära ändamål.
   ym-Eastern-University:
@@ -993,14 +1129,18 @@ sv:
     description: YouthMappers-filial vid Eastern University
     extendedDescription: YouthMappers vid Eastern University, Bangladesh har bildats för att hjälpa människor under humanitär kris. Studenterna, liksom andra kartläggare i världen, lovas att hjälpa människor att använda kartan för utbildning, navigering och andra humanitära ändamål.
   ym-Far-Eastern-University-Institute-of-Technology:
+    name: Junior Filipinska Datorgemenskap
     description: YouthMappers-filial vid Far Eastern University -Institute of Technology
     extendedDescription: FEU har erkänts som ett av de ledande universiteten på Filippinerna. Dess uppdrag är att producera akademiker som har bidragit till landets framgång. Universitetet utmanar sig ständigt för att höja gränsen för spetskompetens för att uppnå en högsta status inte bara i Filippinerna utan också i den sydostasiatiska regionen
   ym-Federal-School-of-Surveys:
+    name: OyoMappersTeam (OMT) Oyo
     description: YouthMappers-filial vid Federal School of Surveys
   ym-Fourah-Bay-College:
+    name: Studenternas Geografiska Förening
     description: YouthMappers-filial vid Fourah Bay College
     extendedDescription: Student's Geographical Association- YouthMappers är en sammanslutning av Fourah Bay College-studenter med de gemensamma målen att kartlägga utsatta platser i Sierra Leone och världen i stort för lättnad och andra fördelaktiga ändamål, genomföra forskning och andra utbildningsinsatser. Kapitlet består av ungdomar med fantastiska idéer, utvecklingsorienterade med förmåga att relatera till varandra, förstå och genomföra hållbara utvecklingsprojekt som ett team.
   ym-George-Mason-University:
+    name: Mason Mappers
     description: YouthMappers-filial vid George Mason University
     extendedDescription: Mason Mappers Student Society är en humanitär kartläggning av studentorganisationer i George Mason University GGS-avdelningen, och dess mål är att främja utbildning och kunskap inom geo-teknik, geo-infovetenskap, för att främja god global förvaltning och engagera sig i professionell utveckling samtidigt som man bygger en positiva, interaktiva geosamhällen, liksom att forma eleverna till morgondagens ledare.
   ym-Grand-Gedeh-County-Community-College:
@@ -1011,24 +1151,30 @@ sv:
     name: CCIM vid Ahmedabad
     description: YouthMappers-filial vid Gujarat University
   ym-Gulu-University:
+    name: CSGU Mappers
     description: YouthMappers-filial vid Gulu University
     extendedDescription: CSGU Mappers är datorgemenskapen vid Gulu University. Denna filial är kreativt, passionerat, innovativt och redo att kartlägga Uganda och världen i stort, bortom andras fantasi.
   ym-Heidelberg-University:
+    name: disastermappers heidelberg
     description: YouthMappers-filial vid Heidelberg University
     extendedDescription: Disastermappers Heidelberg grundades 2014 som ett studentinitiativ för att bygga en plattform för utbyte mellan studenter, forskare och humanitära aktörer. Disastermappers är medlem i Missing Maps och organiserar mapathons, workshops och webinarer i Heidelberg och vidare och stöder HOT och Missing Maps genom forskning och applikationer.
   ym-Ignatius-Ajuru-University-of-Education:
+    name: IgnatiusMappersTeam (IMT)
     description: YouthMappers-filial vid Ignatius Ajuru University of Education
     extendedDescription: Vi är en YouthMappers-filial från Ignatius Ajuru University of Education som är engagerade i samhällskartläggning av vår miljö och fjärrkartläggning av motståndskraftiga samhällen. Vi är en grupp av frivilliga som använder openstreetmap och annan öppen geospatial källa för kartläggning.
   ym-Indiana-University-of-Pennsylvania:
+    name: Geospatialt Vetenskapsklubb
     description: YouthMappers-filial vid Indiana University of Pennsylvania
   ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
     name: YouthMappers vid INES Ruhengeri
     description: YouthMappers-filial vid Insititue d' Enseignement Superieur de Ruhengeri
     extendedDescription: Vi är studenter från avdelningar för landadministrtion och -förvaltning och avdelningar för markundersökning från INES-Ruhengeri. Vi är engagerade i kartläggningsaktiviteter som skapar förändringarna mot hållbar utveckling i vårt samhälle.
   ym-Institut-Suprieur-de-Management-Kolda:
+    name: De kvinnliga ledarna för ISM/Kolda
     description: YouthMappers-filial vid Institut Supérieur de Management Kolda
     extendedDescription: Les Femmes Leaders de ISM/Kolda är en helt kvinnlig kartläggningsgrupp i södra Senegal som vill sätta Kolda och omgivande byar på kartan och bättre förstå hur man använder OSM.
   ym-Institute-of-Crisis-Management-Studies:
+    name: Institute of Crisis Management Studies YouthMappers
     description: YouthMappers-filial vid Institute of Crisis Management Studies
     extendedDescription: För att utveckla Crisis Mappers för att hjälpa till vid katastrofsituationer.
   ym-Institute-of-Rural-Development-Planning:
@@ -1039,12 +1185,15 @@ sv:
     name: YouthMappers-filial vid Institute of Rural Development Planning - Lake Zone Centre
     description: YouthMappers-filial vid Institute of Rural Development Planning Mwanza
   ym-Institute-of-Science-and-Veterinary-Medicine:
+    name: YouthMappers ISSMV Dalaba
     description: YouthMappers-filial vid Institute of Science and Veterinary Medicine
     extendedDescription: YouthMappers ISSMV Dabala är en ideell organisation som arbetar för att främja humanitär kartläggning och användning av öppna källor och öppen data för att bygga verktyg för beslutsfattande i Guinea.
   ym-Istanbul-Technical-University:
+    name: YouthMappers ITU
     description: YouthMappers-filial vid Istanbul Technical University
     extendedDescription: YouthMappers ITU är en tvärvetenskaplig och samarbetsvillig studentgemenskap för att främja humanitär kartläggning av utsatta bosättningar och syftar till att utveckla och dela strategisk och innovativ rumslig information för framtida städer genom att använda geografiska informationssystem och öppna data.
   ym-Jacksonville-State-University:
+    name: JSU:s katastrofkartläggningsteam
     description: YouthMappers-filial vid Jacksonville State University
     extendedDescription: JSU Disaster Mapping Team är ett program vid Jacksonville State University tillägnad katastrofinsatser i nödsituationer. Detta inkluderar tornados, kraftiga åskväder, översvämningar etc. Teamet är tänkt att vara en värdefull tillgång för omgivande län och en kanal för studenterna på JSU Geoscience Department för att tillämpa det de har lärt sig i en akademisk miljö för att stödja räddningstjänster. Vårt mål är att effektivisera katastrofinsatser och återhämtningsoperationer samtidigt som du använder studentens skicklighetsuppsättningar
   ym-Jahangirnagar-University:
