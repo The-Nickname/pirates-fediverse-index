@@ -24,6 +24,11 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Copy dist files to docs
+        run: |
+          cp -r dist/* docs/
+          cp -r dist/img/* docs/img/
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
